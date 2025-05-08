@@ -28,8 +28,8 @@ public class Insurance {
             new Policy("P3", "Kaushik", 2200),
             new Policy("P4", "Rick", 1300),
             new Policy("P5", "Hailey", 800),
-            new Policy("P6", "Ashley Hughes", 2000),
-            new Policy("P7", "Aayushi Sanjay", 1700)
+            new Policy("P6", "Ashley", 2000),
+            new Policy("P7", "Sanjay", 1700)
         );
 
         Stream<Policy> streamAbove1200 = list.stream();
